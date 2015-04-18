@@ -1,0 +1,85 @@
+[Adblock Plus 2.0]
+! Checksum: HkZ0ftPNp2W58z7x8Z7BBA
+! Version: 201504182007
+! Last modified: 18 Apr 2015 18:07 UTC
+! Title: Aapeli/Playforia
+! Expires: 7 days
+! Homepage: https://github.com/kozeraw/
+! License: http://unlicense.org/
+!----------------------------------------------------------!
+! General blocking filters
+!----------------------------------------------------------!
+!
+! Block analytics, sniffers, useless stuff etc.
+||playforia.net/inc/tmv1163.js
+||google-analytics.com/*
+||googletagservices.com/tag/js/*
+||iltalehti.fi/ssi/v2/navi/*
+||iltalehti.fi/js/measure/*
+||spring-tns.net/*
+||static.dev.playforia.net/*
+||playforia.net/java/JavaSniffer.class
+||playforia.net/swf/systemInfo.swf
+||playforia.net/inc/v3/deployJava.js
+||playforia.net/q/tellfriend/*
+||aapeli.com/q/tellfriend/*
+!
+! Hide frames
+aapeli.com,playforia.net##iframe
+!
+! Hide overlays
+aapeli.com,playforia.net##div#modalOverlay
+!
+!----------------------------------------------------------!
+! Front page
+!----------------------------------------------------------!
+!
+! Block/Hide banners etc.
+||playforia.net/swf/pad/*
+aapeli.com,playforia.net##div#sectionid > div[class^="bottomspacer"]
+aapeli.com,playforia.net##div#sectionid > img
+!
+! Block (enormous) site background
+||playforia.net/themes/site_playforia*/img/bg-body.jpg
+!
+! Hide skin chooser
+aapeli.com,playforia.net##div#skinTear
+!
+! Hide "Welcome back"-box
+aapeli.com,playforia.net##div#welcomeback
+!
+! Block/Hide "Collections"-box
+||playforia.net/swf/itemGrid/*
+aapeli.com,playforia.net##div.col12 > div + div[class="box b650  "]
+!
+! Hide "Avatar Studio"-link
+aapeli.com,playforia.net##div.col3 > div[class^="button b320x25"]
+!
+!----------------------------------------------------------!
+! User pages
+!----------------------------------------------------------!
+!
+! Block/Hide gadgets (hides also user's own gadgets)
+||playforia.net/gadgets/*
+aapeli.com,playforia.net##div#absolute
+!
+! Block/Hide flash character
+||playforia.net/swf/character_v3/*
+||playforia.net/swf/chargen_v2.87/*
+aapeli.com,playforia.net##div.col1 > div[class^="box b320"] div[class^="left half"]
+aapeli.com,playforia.net##div#character
+aapeli.com,playforia.net##div#characterarchive
+!
+! Block/Hide chat
+||chat.playforia.com/*
+aapeli.com,playforia.net##div#chat-container
+!
+!----------------------------------------------------------!
+! Game pages
+!----------------------------------------------------------!
+!
+||playforia.net/swf/progressbar.swf
+aapeli.com,playforia.net##div#nagger_game_preroll
+aapeli.com,playforia.net##div#newgamebox
+aapeli.com,playforia.net##div#game_play_top
+aapeli.com,playforia.net##div#quicksmsbar
