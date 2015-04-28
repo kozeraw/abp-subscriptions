@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: HkZ0ftPNp2W58z7x8Z7BBA
-! Version: 201504182007
-! Last modified: 18 Apr 2015 18:07 UTC
+! Checksum: l6YV7MAAsD2smJBjdmfBww
+! Version: 201504281340
+! Last modified: 28 Apr 2015 11:40 UTC
 ! Title: Aapeli/Playforia
 ! Expires: 7 days
 ! Homepage: https://github.com/kozeraw/
@@ -40,7 +40,7 @@ aapeli.com,playforia.net##div#sectionid > div[class^="bottomspacer"]
 aapeli.com,playforia.net##div#sectionid > img
 !
 ! Block (enormous) site background
-||playforia.net/themes/site_playforia*/img/bg-body.jpg
+||playforia.net/themes/site_*/img/bg-body.jpg
 !
 ! Hide skin chooser
 aapeli.com,playforia.net##div#skinTear
