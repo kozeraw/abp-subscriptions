@@ -1,7 +1,4 @@
 [Adblock Plus 2.0]
-! Checksum: l6YV7MAAsD2smJBjdmfBww
-! Version: 201504281340
-! Last modified: 28 Apr 2015 11:40 UTC
 ! Title: Aapeli/Playforia
 ! Expires: 7 days
 ! Homepage: https://github.com/kozeraw/
@@ -73,6 +70,11 @@ aapeli.com,playforia.net##div#characterarchive
 ! Block/Hide chat
 ||chat.playforia.com/*
 aapeli.com,playforia.net##div#chat-container
+!
+! Block/Hide national flags
+||playforia.net/img/flags/new/*
+aapeli.com,playforia.net##div[style^="width: 30px; height: 11px;"]
+aapeli.com,playforia.net##div.commentcontainer img[style^="width: 16px;"]
 !
 !----------------------------------------------------------!
 ! Game pages
