@@ -1,4 +1,7 @@
 [Adblock Plus 2.0]
+! Checksum: waUHkyFIM6P+opJh/6j91A
+! Version: 201505160925
+! Last modified: 16 May 2015 07:25 UTC
 ! Title: Aapeli/Playforia
 ! Expires: 7 days
 ! Homepage: https://github.com/kozeraw/
