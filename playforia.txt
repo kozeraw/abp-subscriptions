@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: z/PVygPdTFATuMvO4xqJag
-! Version: 201505182200
-! Last modified: 18 May 2015 20:00 UTC
+! Checksum: Iep7TKI3yn7gEYQ8VDihqg
+! Version: 201601061735
+! Last modified: 06 Jan 2016 15:35 UTC
 ! Title: Aapeli/Playforia
 ! Expires: 7 days
 ! Homepage: https://github.com/kozeraw/
@@ -47,6 +47,11 @@ aapeli.com,playforia.net##div#skinTear
 !
 ! Hide "Welcome back"-box
 aapeli.com,playforia.net##div#welcomeback
+!
+! Hide "Fresh Avatar Updates"-box
+aapeli.com,playforia.net##div.col3 div.bcinner div[class="bcwrapper bcw300"]:nth-child(1)
+aapeli.com,playforia.net##div.col3 div.bcinner div[class="bcwrapper bcw300"]:nth-child(1) + div
+aapeli.com,playforia.net##div.col3 div.bcinner div[class="bcwrapper bcw300"]:nth-child(1) + div + div
 !
 ! Block/Hide "Collections"-box
 ||playforia.net/swf/itemGrid/*
